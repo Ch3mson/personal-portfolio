@@ -39,6 +39,10 @@ const About = () => {
   return (
     <div className="flex flex-wrap justify-center text-center">
 
+      <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText} flex flex-wrap justify-center`}>About Me.</h2>
+      </motion.div>
+
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
