@@ -181,41 +181,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "League Tracker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A basic python function that allows a user to fetch League of Legends player data. (Working in progress to create a League of Legends web app)",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Cassiopeia",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Personal Portfolio Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A website built off React that utilizes various modern web development libraries. The website is based off of 'create a 3D portfolio' and is modified towards my own preferences",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
@@ -223,20 +219,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Simon",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A basic web application game that tests a users memory",
       tags: [
         {
-          name: "nextjs",
+          name: "Jaavscript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
